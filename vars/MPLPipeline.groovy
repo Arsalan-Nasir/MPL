@@ -58,18 +58,18 @@ def call(body) {
           MPLModule()
         }
       }
-      stage( 'Deploy' ) {
-        when { expression { MPLModuleEnabled() } }
-        steps {
-          MPLModule()
-        }
-      }
-      stage( 'Test' ) {
-        when { expression { MPLModuleEnabled() } }
-        steps {
-          MPLModule()
-        }
-      }
+ //     stage( 'Deploy' ) {
+  //      when { expression { MPLModuleEnabled() } }
+   //     steps {
+   //       MPLModule()
+    //    }
+    //  }
+    //  stage( 'Test' ) {
+     //   when { expression { MPLModuleEnabled() } }
+     //   steps {
+      //    MPLModule()
+       // }
+     // }
     }
     post {
       always {
