@@ -64,12 +64,12 @@ def call(body) {
       //     MPLModule()
       //   }
       // }
-      // stage( 'Test' ) {
-      //   when { expression { MPLModuleEnabled() } }
-      //   steps {
-      //     MPLModule()
-      //   }
-      // }
+      stage( 'Test' ) {
+        when { expression { MPLModuleEnabled() } }
+        steps {
+          MPLModule()
+        }
+      }
     }
     post {
       always {
