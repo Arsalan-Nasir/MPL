@@ -1,4 +1,4 @@
 /**
  * Simple JS Build
  */
-echo "Hello World From Build Files"
+echo "Hello World From ReactJs Files"
