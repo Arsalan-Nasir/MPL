@@ -1,4 +1,4 @@
 /**
  * Simple JS Build
  */
-sh "npm install"
+echo "This is from ReactJs File"
